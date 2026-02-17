@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calla's First Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encharmed :: Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-Hello, world! I am Calla Yearta-Sothern. I am learning how to create websites.
+  <div id="wrapper">
+    <header>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Encharmed logo" class="logo">
+        <h1>Encharmed Pop-Up Charm Studio</h1>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a href="offerings.html">Product &amp; Services</a></li>
+          <li><a href="connect.html">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- first thing: 1–2 sentences -->
+      <p class="intro">
+        Encharmed Pop-Up Charm Studio is a charm-accessories brand built around customization, storytelling, and self-expression.
+        This website shares our mission and offerings and helps customers connect with Encharmed.
+      </p>
+
+      <section class="hero">
+        <img src="images/hero-image.jpeg" alt="Charm accessories displayed for sale" class="hero-image">
+
+        <div class="hero-text">
+          <h2>Custom charm pieces that feel personal.</h2>
+          <p>
+            From bracelets and necklaces to bag chains, keychains, and bookmarks, each piece is designed to reflect your style, your memories, and your people.
+          </p>
+
+          <div class="buttons">
+            <a class="button primary" href="offerings.html">Explore offerings</a>
+            <a class="button secondary" href="connect.html">Contact</a>
+          </div>
+
+          <p class="note">
+            Note: This site does not process transactions. To purchase, follow our upcoming events on social media or shop via Student-Made at ASU®.
+          </p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h3>What we offer</h3>
+          <ul>
+            <li>Charm bracelets and necklaces</li>
+            <li>Bag chains, keychains, and bookmarks</li>
+            <li>Charm upgrades and custom builds at markets</li>
+            <li>A memorable pop-up experience</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Why this site exists</h3>
+          <p>
+            Student-Made at ASU® is where my products are listed, but it doesn’t provide space to share my story or explain my services.
+            This site is where customers can learn about the mission behind Encharmed and reach out for custom requests or collaborations.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> Encharmed Pop-Up Charm Studio • <a href="connect.html">Contact</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
