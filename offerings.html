@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encharmed :: Offerings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Encharmed logo" class="logo">
+        <h1>Encharmed Pop-Up Charm Studio</h1>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a class="active" href="offerings.html">Product &amp; Services</a></li>
+          <li><a href="connect.html">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p class="intro">
+        Encharmed offers charm accessories and a pop-up customization experience.
+        This page summarizes product types, service options, and what customers can request.
+      </p>
+
+      <section class="hero">
+        <img src="images/offerings.jpg" alt="Encharmed products displayed" class="hero-image">
+
+        <div class="hero-text">
+          <h2>Products + services</h2>
+          <p>
+            I offer charm-based accessories plus customization at events. If you're interested in custom requests or collaborations,
+            use the Connect page.
+          </p>
+          <p class="note">
+            Note: Purchases are handled through Student-Made at ASU® or in-person pop-ups.
+          </p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h3>Products</h3>
+          <ul>
+            <li>Bracelets</li>
+            <li>Necklaces</li>
+            <li>Bag chains</li>
+            <li>Keychains</li>
+            <li>Bookmarks</li>
+            <li>Bundles (e.g. bracelet + necklace)</li>
+            <li>Charm upgrades (e.g. 1 charm, 2 charm, 5 charm)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Services</h3>
+          <ul>
+            <li>Pop-up charm studio customization</li>
+            <li>Custom requests (limited)</li>
+            <li>Collaboration / event inquiries</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Bulk Pricing (Table)</h3>
+        <p>All base products come with 3 charms, and can be optionally added to with charm upgrades (see table below).</p>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Base Price (per unit)</th>
+            <th>Bulk Price (10+ units)</th>
+            <th>Bulk Price (50+ units)</th>
+          </tr>
+          <tr>
+            <td>Bracelet</td>
+            <td>$12.00</td>
+            <td>$10.00</td>
+            <td>$8.00</td>
+          </tr>
+          <tr>
+            <td>Necklace</td>
+            <td>$16.00</td>
+            <td>$13.00</td>
+            <td>$10.00</td>
+          </tr>
+          <tr>
+            <td>Bag Chain</td>
+            <td>$20.00</td>
+            <td>$18.00</td>
+            <td>$15.00</td>
+          </tr>
+          <tr>
+            <td>Keychain</td>
+            <td>$10.00</td>
+            <td>$8.00</td>
+            <td>$5.50</td>
+          </tr>
+          <tr>
+            <td>Bookmark</td>
+            <td>$12.00</td>
+            <td>$10.00</td>
+            <td>$8.00</td>
+          </tr>
+          <tr>
+            <td>Bracelet Bundle</td>
+            <td>$20.00</td>
+            <td>Not offered in bulk</td>
+            <td>Not offered in bulk</td>
+          </tr>
+          <tr>
+            <td>Bracelet + Necklace Bundle</td>
+            <td>$25.00</td>
+            <td>$22.00</td>
+            <td>$18.00</td>
+          </tr>
+          <tr>
+            <td>1 charm upgrade</td>
+            <td>$3.00</td>
+            <td>$2.50</td>
+            <td>$2.00</td>
+          </tr>
+          <tr>
+            <td>2 charm upgrade</td>
+            <td>$5.00</td>
+            <td>$4.25</td>
+            <td>$3.50</td>
+          </tr>
+          <tr>
+            <td>5 charm upgrade</td>
+            <td>$8.00</td>
+            <td>Not offered in bulk</td>
+            <td>Not offered in bulk</td>
+          </tr>
+        </table>
+
+        <p class="note">Bulk pricing applies to orders of the same item type. Bundle bulk pricing availability may vary.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> Encharmed Pop-Up Charm Studio • <a href="connect.html">Contact</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
