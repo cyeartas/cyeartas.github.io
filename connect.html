@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Encharmed Pop-Up Charm Studio offers customizable charm bracelets, necklaces, and accessories through pop-up events and Student-Made at ASU.">
+  <meta name="keywords" content="custom jewelry, charm bracelets, pop-up shop, Student-Made at ASU, charm necklaces, handmade accessories">
+  <title>Encharmed :: Connect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Encharmed logo" class="logo">
+        <h1>Encharmed Pop-Up Charm Studio</h1>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a href="offerings.html">Product &amp; Services</a></li>
+          <li><a class="active" href="connect.html">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="card">
+        <h2>Connect with Encharmed</h2>
+        <p>
+          Interested in booking a pop-up charm studio, placing a bulk order,
+          or collaborating for an event? Fill out the form below and I will
+          respond as soon as possible.
+        </p>
+
+        <form action="#" method="post" class="contact-form">
+
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="organization">Affiliated Organization (if applicable)</label>
+          <input type="text" id="organization" name="organization">
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Submit Inquiry</button>
+
+        </form>
+      </section>
+
+    </main>
+
+  <footer>
+    <p>
+      © <span id="current-year"></span> Encharmed Pop-Up Charm Studio •
+      Featured on
+      <a href="https://www.studentmadeasu.com/shop?tag=Calla%20Yearta-Sothern" target="_blank" rel="noopener">
+        Student-Made at ASU
+      </a>
+    </p>
+  </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
